@@ -1,0 +1,55 @@
+--- GET /hello ---
+HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 34
+
+Hello! Welcome to the mini server.
+
+--- GET /time ---
+HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 43
+
+Current server time is: 2026-04-15 02:47:52
+
+--- GET /dns ---
+HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 118
+
+DNS (Domain Name System) is the phonebook of the Internet. It translates domain names like google.com to IP addresses.
+
+--- GET /http ---
+HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 98
+
+HTTP (Hypertext Transfer Protocol) is the foundation of data communication for the World Wide Web.
+
+--- GET /status ---
+HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 27
+
+Server is running smoothly.
+
+--- GET /unknown ---
+HTTP/1.1 404 Not Found
+Content-Type: text/plain
+Content-Length: 13
+
+404 Not Found
+
+--- GET /quote ---
+HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 66
+
+The only way to do great work is to love what you do. - Steve Jobs
+
+--- GET /ask?question=What_is_life? ---
+HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 64
+
+You asked: What_is_life?. My answer is: That's a great question!

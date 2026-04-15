@@ -1,0 +1,11 @@
+Server is listening on port 8080...
+[2026-04-15 02:47:52] 127.0.0.1 requested /hello - Status: 200
+[2026-04-15 02:47:52] 127.0.0.1 requested /time - Status: 200
+[2026-04-15 02:47:53] 127.0.0.1 requested /dns - Status: 200
+[2026-04-15 02:47:53] 127.0.0.1 requested /http - Status: 200
+[2026-04-15 02:47:53] 127.0.0.1 requested /status - Status: 200
+[2026-04-15 02:47:54] 127.0.0.1 requested /unknown - Status: 404
+[2026-04-15 02:47:54] 127.0.0.1 requested /quote - Status: 200
+[2026-04-15 02:47:54] 127.0.0.1 requested /ask?question=What_is_life? - Status: 200
+[2026-04-15 02:48:11] 127.0.0.1 requested /hello - Status: 200
+[2026-04-15 02:48:12] 127.0.0.1 requested /hello - Status: 200
